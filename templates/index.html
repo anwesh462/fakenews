@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>InfoTrust - Fake News Credibility</title>
+</head>
+<body style="font-family: Arial; text-align: center;">
+    <h2>🔒 InfoTrust: News Credibility Analysis</h2>
+    <form action="/predict" method="post">
+        <textarea name="news" rows="5" cols="60" placeholder="Paste news article or title here..."></textarea><br><br>
+        <input type="submit" value="Check Credibility">
+    </form>
+    {% if result %}
+        <h3>Input: {{news}}</h3>
+        <h2>Result: {{result}}</h2>
+    {% endif %}
+</body>
+</html>

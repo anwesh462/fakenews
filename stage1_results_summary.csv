@@ -1,0 +1,4 @@
+,Accuracy,Precision,Recall,F1
+Logistic Regression,0.9117,0.8356,0.9664,0.8963
+Naive Bayes,0.8649,0.7542,0.9758,0.8508
+Random Forest,0.9002,0.8281,0.9431,0.8818
